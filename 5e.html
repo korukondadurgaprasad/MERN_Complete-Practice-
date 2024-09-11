@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card with Hover Shadow</title>
+  <style>
+    .card {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid gray;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      transition: box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h3>Card Title</h3>
+    <p>This is a card component with a hover shadow effect. The shadow becomes more prominent when you hover over the card.</p>
+  </div>
+
+</body>
+</html>
