@@ -1,0 +1,12 @@
+def twosum(arr,tar):
+    n=len(arr)
+    for i in range(n):
+        for j in range(i+1,n):
+            if arr[i]+arr[j]==tar:
+                return i,j
+            
+
+
+arr=[1,2,3,4,5,6]
+tar=5
+print(twosum(arr,tar))

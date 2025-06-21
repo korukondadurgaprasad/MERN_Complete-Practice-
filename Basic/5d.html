@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow Example</title>
+  <style>
+    .container {
+      width: 500px;
+      background-color: lightgray;
+      margin: 20px auto;
+    }
+
+    .element {
+      width: 100%;
+      padding: 20px;
+      border: 5px solid blue;
+      background-color: white;
+      /* box-sizing: border-box; */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="element">
+      This element is overflowing because of padding and borderowever, because the element has 20px padding on all sides and a 5px border, these are added on top of the 100% content width, causing the total width to exceed 500px and overflow the container..
+    </div>
+  </div>
+
+</body>
+</html>
