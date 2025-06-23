@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <style>
+
         .subscribe {
             background-color: rgb(203, 24, 24);
             color: white;
             border: none;
-            height: 30px;
-            width: 100px;
+    
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-left: 16px;
+            padding-right: 16px;
             border-radius: 2px;
             cursor: pointer;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            vertical-align: top;
         }
         .subscribe:hover {
             background-color: rgb(255, 0, 0);
@@ -26,10 +25,14 @@
             border-style: solid;
             border-width: 1px;
             color: rgb(0, 157, 255);
-            height: 30px;
-            width: 90px;
+         margin-top: 10px;
+            padding-top: 9px;
+           padding-bottom: 10px;
+           padding-left: 16px;
+            padding-right: 16px;
             border-radius: 2px;
             cursor: pointer;
+            vertical-align:top ;
         }
         .join:hover {
             background-color: rgb(0, 157, 255);
@@ -53,22 +56,4 @@
     
         }
 
-    </style>
-
-
-
-    <button class="subscribe">
-        SUBSCRIBE
-    </button>
-
-
-    <button class="join">
-        JOIN US
-    </button>
-
-    <button class="tweet" >
-        Tweet
-    </button>
     
-</body>
-</html>

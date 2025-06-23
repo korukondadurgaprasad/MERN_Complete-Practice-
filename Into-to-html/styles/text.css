@@ -1,0 +1,49 @@
+
+    .video-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    line-height: 20px;
+    width: 300px;
+    margin-bottom: 15px;
+
+}
+    .video-titles {
+        font-family: Arial, Helvetica, sans-serif
+        ;
+        font-size: 14px;
+        color: gray;
+        margin-top: 0 ;
+        margin-bottom: 20;
+}
+    .video-titless {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: gray;
+        margin-top: 0 ;
+        margin-bottom: 70px;
+     
+
+    }
+    .apple-text {
+
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: red;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+    .span-ex {
+        font-weight: bold;
+        color: black;
+
+        cursor: pointer;
+    }
+    .span-ex:hover {
+        color: blue;
+           text-decoration: underline;
+    }
